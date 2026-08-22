@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET build output
+bin/
+obj/
+
+# Published/generated output
+publish/
+installer/
+
+# Local and secret configuration
+.env
+.env.*
+*.pfx
+*.snk
+secrets.json
+appsettings.Local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary logs
+*.log

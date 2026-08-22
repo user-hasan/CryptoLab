@@ -1,0 +1,61 @@
+﻿<Window x:Class="CryptoLab.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CryptoLab" Height="820" Width="1280" MinHeight="720" MinWidth="1080"
+        WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown" Icon="Assets/CryptoLab.ico"
+        Background="{DynamicResource AppBackgroundBrush}">
+    <Grid x:Name="RootGrid" Background="{DynamicResource AppBackgroundBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="SidebarColumn" Width="270" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Border x:Name="Sidebar" Grid.Column="0" Padding="20" Background="{DynamicResource SidebarBrush}">
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top">
+                    <TextBlock x:Name="SidebarTitle" Text="CryptoLab" FontSize="28" FontWeight="Bold" Foreground="{DynamicResource PrimaryTextBrush}" />
+                    <TextBlock x:Name="SidebarSubtitle" Text="Cryptography Learning" TextWrapping="Wrap" Margin="0,4,0,24" Foreground="{DynamicResource MutedTextBrush}" />
+                    <StackPanel x:Name="NavItems" />
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+                    <Border CornerRadius="8" Padding="12" Background="{DynamicResource CardBrush}">
+                        <StackPanel>
+                            <TextBlock x:Name="VersionText" Text="Version 1.0.0" Foreground="{DynamicResource MutedTextBrush}" />
+                            <TextBlock x:Name="StatusText" Text="Status: Ready" Margin="0,6,0,0" Foreground="{DynamicResource AccentBrush}" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <Grid Grid.Column="1" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Padding="28,22,28,14" Background="{DynamicResource HeaderBrush}">
+                <DockPanel>
+                    <StackPanel>
+                        <TextBlock x:Name="PageTitle" FontSize="26" FontWeight="Bold" Foreground="{DynamicResource PrimaryTextBrush}" />
+                        <TextBlock x:Name="PageSubtitle" Margin="0,6,0,0" Foreground="{DynamicResource MutedTextBrush}" />
+                    </StackPanel>
+                    <Border DockPanel.Dock="Right" CornerRadius="8" Padding="12,7" Background="{DynamicResource NoticeBrush}">
+                        <TextBlock x:Name="SafetyNotice" Text="Educational Use Only" Foreground="{DynamicResource PrimaryTextBrush}" FontWeight="SemiBold" />
+                    </Border>
+                </DockPanel>
+            </Border>
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel x:Name="PageHost" Margin="24" />
+            </ScrollViewer>
+        </Grid>
+
+        <Border x:Name="ToastHost" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="24"
+                CornerRadius="8" Padding="16,12" Background="{DynamicResource ToastBrush}" Visibility="Collapsed">
+            <TextBlock x:Name="ToastText" Foreground="White" FontWeight="SemiBold" />
+        </Border>
+    </Grid>
+</Window>
+
