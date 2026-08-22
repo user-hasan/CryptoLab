@@ -1,0 +1,11 @@
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\bin\Debug\net8.0\CryptoLab.Core.deps.json
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\bin\Debug\net8.0\CryptoLab.Core.dll
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\bin\Debug\net8.0\CryptoLab.Core.pdb
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.AssemblyInfoInputs.cache
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.AssemblyInfo.cs
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.csproj.CoreCompileInputs.cache
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.dll
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\refint\CryptoLab.Core.dll
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\CryptoLab.Core.pdb
+E:\الجامعه\level 3\level 3 term 1\التشفير\project\src\CryptoLab.Core\obj\Debug\net8.0\ref\CryptoLab.Core.dll
