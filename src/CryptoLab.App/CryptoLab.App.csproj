@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoLab.Core\CryptoLab.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>CryptoLab</AssemblyName>
+    <RootNamespace>CryptoLab.App</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>CryptoLab</Authors>
+    <Product>CryptoLab</Product>
+    <Description>Interactive Cryptography Learning and Experimentation Platform</Description>
+    <ApplicationIcon>Assets\CryptoLab.ico</ApplicationIcon>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Resource Include="Assets\CryptoLab.ico" />
+    <Resource Include="Assets\UniversityLogo.png" />
+  </ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="QuestPDF" Version="2026.7.3" />
+</ItemGroup>
+
+</Project>
