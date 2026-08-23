@@ -25,3 +25,7 @@ Thumbs.db
 
 # Temporary logs
 *.log
+
+# Temporary packaging and inventory files
+*.zip
+inventory.txt
